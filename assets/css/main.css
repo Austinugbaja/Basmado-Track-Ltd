@@ -499,7 +499,6 @@ body {
     -ms-flex-align:center;
     align-items:center;
     text-decoration:none;
-    padding-top: 20px;
     color:#fff;
 }
 
@@ -918,6 +917,7 @@ body {
     -ms-flex-pack:center;
     justify-content:center;
     margin:0 auto;
+    /*background-image:url("../img/work-bg.jpg")*/;
 }
 
 @media (max-width: 1180px) {
@@ -1367,7 +1367,7 @@ body {
     left:0;
     width:100%;
     height:100%;
-    /*background-image:url("../img/Basmado-bg-png.png");*/
+    background-image:url("../img/gps-bg.jpg");
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
