@@ -1338,7 +1338,7 @@ body {
     .about--banner {
         height:auto;
     }
-    
+
     .about--banner::before {
         left:155px;
     }
@@ -1437,10 +1437,6 @@ body {
 
 .contact--lockup .modal--information p {
     margin-top:0;
-}
-
-.contact--lockup .modal--information i {
-    color: #fff;
 }
 
 .contact--lockup .modal--options {
