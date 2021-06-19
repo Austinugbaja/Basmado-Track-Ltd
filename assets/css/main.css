@@ -697,15 +697,18 @@ body {
     -ms-flex-pack:center;
     justify-content:center;
     margin:0 auto;
+    background-image: url("../img/bmw5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @media (max-width: 1180px) {
-    .intro {
+    /*.intro {
         max-width:100%;
         background-image: url("../img/Basmado-bg-png\ \(1\).png");
         background-repeat: no-repeat;
         background-position: top;
-    }
+    }*/
 
     .intro--banner {
         margin-top: 110px;
@@ -1027,6 +1030,12 @@ body {
     font-size:16px;
 }
 
+.work--lockup .slider--item-center .slider--item-title i {
+    color: #0f33ff;
+    margin-right: 10px;
+    font-size: 35px;
+}
+
 .work--lockup .slider--item-center .slider--item-description {
     display:block;
 }
@@ -1303,6 +1312,10 @@ body {
     .about--banner {
         height:305px;
     }
+
+    .about--banner video {
+        margin-top: 5px;
+    }
     
     .about--banner::before {
         top:0;
@@ -1408,6 +1421,7 @@ body {
     .contact--lockup {
         max-width:90%;
     }
+
 }
 
 @media (max-width: 767px) {
@@ -1437,6 +1451,10 @@ body {
 
 .contact--lockup .modal--information p {
     margin-top:0;
+}
+
+.contact--lockup .modal--information i {
+    margin-right: 10px;
 }
 
 .contact--lockup .modal--options {
